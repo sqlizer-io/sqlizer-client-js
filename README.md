@@ -1,6 +1,6 @@
 # sqlizer-client-js
 
-A JavaScript client library for SQLizer.io, easily converting CSV, JSON, XML and Spreadsheet files into SQL
+A JavaScript client library for [SQLizer.io](https://sqlizer.io), easily converting CSV, JSON, XML and Spreadsheet files into SQL.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ Then import the `File` class and use it to convert a file:
 
 ```JavaScript
 const { createWriteStream } = require('fs');
-const { File } = require('../lib');
+const { File } = require('sqlizer-client');
 
 const sqlizerFile = new File({
   ApiKey: '[MY API KEY]',
