@@ -1,0 +1,31 @@
+{
+  "name": "sqlizer-client",
+  "version": "0.0.1",
+  "description": "A client library for SQLizer.io, easily converting CSV, JSON, XML and Spreadsheet files into SQL.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "cd tests && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqlizer-io/sqlizer-client-js.git"
+  },
+  "keywords": [
+    "csv",
+    "xlsx",
+    "json",
+    "xml",
+    "sql",
+    "conversion"
+  ],
+  "author": "Daniel Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sqlizer-io/sqlizer-client-js/issues"
+  },
+  "homepage": "https://github.com/sqlizer-io/sqlizer-client-js#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "form-data": "^4.0.0"
+  }
+}
