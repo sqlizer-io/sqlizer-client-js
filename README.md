@@ -10,13 +10,13 @@ Install the library:
 npm i sqlizer-client
 ```
 
-Then import the `File` class and use it to convert a file:
+Then import the `SQLizerFile` class and use it to convert a file:
 
 ```JavaScript
 const { createWriteStream } = require('fs');
-const { File } = require('sqlizer-client');
+const { SQLizerFile } = require('sqlizer-client');
 
-const sqlizerFile = new File({
+const sqlizerFile = new SQLizerFile({
   ApiKey: '[MY API KEY]',
   FileType: 'csv',
   FileName: 'my-file.csv',

@@ -4,7 +4,7 @@
   "description": "A client library for SQLizer.io, easily converting CSV, JSON, XML and Spreadsheet files into SQL.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "cd tests && node index.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,10 @@
   "homepage": "https://github.com/sqlizer-io/sqlizer-client-js#readme",
   "dependencies": {
     "axios": "^1.7.2",
-    "form-data": "^4.0.0"
+    "form-data": "^4.0.0",
+    "validate-types": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
