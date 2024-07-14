@@ -56,6 +56,9 @@ describe("SQLizerFile", () => {
         Status: "New",
       })
       .post(`/api/files/${fileId}/data`)
+      .query(query => {
+        return !!query.PartNumber;
+      })
       .reply(200, {})
       .get(`/downloads/${fileId}`)
       .reply(200, "CREATE TABLE my_table...")
