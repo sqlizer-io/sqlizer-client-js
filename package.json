@@ -1,6 +1,6 @@
 {
   "name": "sqlizer-client",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A client library for SQLizer.io, easily converting CSV, JSON, XML and Spreadsheet files into SQL.",
   "main": "lib/index.js",
   "scripts": {
